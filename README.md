@@ -4,6 +4,10 @@ townsmen demo
 ## 贡献步骤
 先fork一份到自己的git仓库，
 再提交pull request
+
+## bootstrap
+http://getbootstrap.com/
+
 ## git command
 ```
 git add . //添加修改文件
