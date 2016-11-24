@@ -46,6 +46,11 @@ section {
     margin: 20px auto;
     background-color: #fff;
 }
+
+section > .title {
+  border-bottom: 1px solid #eee;
+}
+
 .thumbnail img {
     width: 100%;
 }
@@ -212,7 +217,4 @@ article
 }
 .wz-culture section {
   background-color:#fff;
-}
-.wz-culture section > .title {
-  border-bottom: 1px solid #eee;
 }
