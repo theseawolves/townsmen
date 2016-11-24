@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>文中深圳校友会</title>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://cdn.staticfile.org/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="https://theseawolves.github.io/townsmen/assets/css/style.css" media="screen" title="no title">
+    <link rel="icon" href="https://theseawolves.github.io/townsmen/assets/img/logo.jpg" type="image/x-icon">
 
 </head>
 
@@ -67,10 +68,10 @@
   </nav>
     <div class="container">
 
-  <section class="zhimingxiaoyou">
-    <div class="bs-callout bs-callout-info">
+  <section>
+    <div class="title">
       <a href="https://theseawolves.github.io/townsmen/section-more.html" class="pull-right more">更多</a>
-      <h4>知名校友</h4>
+      <p id="zhimingxiaoyou">知名校友</p>
     </div>
     <div class="media">
       <div class="media-left">
@@ -124,10 +125,10 @@
   </section>
 
 
-  <section class="xiaoyougushi">
-    <div class="bs-callout bs-callout-info">
+  <section>
+    <div class="title">
       <a href="https://theseawolves.github.io/townsmen/section-more.html" class="pull-right more">更多</a>
-      <h4>校友故事</h4>
+      <p id="xiaoyougushi">校友故事</p>
     </div>
     <div class="media">
       <div class="media-left">
@@ -182,171 +183,16 @@
 
 
 </div>
-
-
-    <footer class="footer">
-      <div class="container">
-        <p>投稿至 wczxszxcb#163.com</p>
-          <p>©2016 文中深圳校友会 All rights reserved.</p>
-      </div>
-  </footer>
-    <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="https://cdn.staticfile.org/holder/2.9.4/holder.min.js" charset="utf-8"></script>
-    <script type="text/javascript">
-        // Holder.addImage("holder.js/100x380?auto=yes", ".cover");
-    </script>
-    <style media="screen">
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        html {
-            font-size: 14px;
-        }
-
-        body {
-            background-color: #eee;
-        }
-
-        h2,h3,
-        h4 {
-            color: #42b983;
-        }
-
-        p {
-            color: #2c3e50;
-            line-height: 28px;
-
-        }
-
-        a {
-            text-decoration: none;
-            color: #42b983;
-        }
-
-        .navbar-default .navbar-nav>li>a {
-            color: #34495e;
-        }
-
-        .navbar-nav>li>a {
-            color: #34495e;
-        }
-
-        .navbar-default .navbar-nav>li>a:hover {
-            color: #42b983;
-            border-bottom: 3px solid #42b983;
-        }
-
-        header {
-            /*padding: 12rem 0rem 66rem;*/
-            text-align: center;
-            height: 580px;
-            width: 100%;
-            padding-top: 20px;
-        }
-
-        .brand {
-            /*box-sizing: border-box;*/
-            line-height: 50px;
-            color: #2c3e50;
-        }
-
-        .brand img {
-            /*width: 50px;*/
-            height: 50px;
-            line-height: 50px;
-            display: inline-block;
-            float: left;
-        }
-
-        .brand span {
-            vertical-align: middle;
-            line-height: 50px;
-            height: 50px;
-            margin-left: 5px;
-            float: left;
-            font-size: 25px;
-        }
-
-        .navbar {
-            margin-bottom: 0;
-        }
-
-        a.button.white {
-            background-color: #fff;
-            color: #42b983;
-        }
-
-        a.button {
-            padding: 0.75em 2em;
-            border-radius: 2em;
-            display: inline-block;
-            color: #fff;
-            background-color: #4fc08d;
-            transition: all 0.15s ease;
-            box-sizing: border-box;
-            border: 1px solid #4fc08d;
-        }
-
-
-
-        section {
-            padding: 35px 20px 45px;
-            margin: 20px auto;
-        }
-
-        .page-header {
-            text-align: center;
-            border-bottom: none;
-        }
-        .zhimingxiaoyou, .xiaoyougushi {
-          background-color: #fff;
-        }
-
-        .bs-callout {
-          padding: 20px;
-          //margin: 20px 0;
-          border: 1px solid #eee;
-          border-left-width: 5px;
-          border-radius: 3px;
-        }
-        .bs-callout h4 {
-          margin-top: 0;
-          margin-bottom: 5px;
-        }
-        .bs-callout p:last-child {
-          margin-bottom: 0;
-        }
-
-        .bs-callout-info {
-          border-left-color: #1b809e;
-        }
-        .bs-callout-info h4 {
-          color: #1b809e;
-        }
-
-        .author ,.date ,p{
-          margin-right: 10px;
-          color: #34495e;
-        }
-
-        a.more {
-          font-size: 18px;
-        }
-
-        footer {
-            padding: 50px 0;
-            color: #fff;
-            text-align: center;
-            background-color: #727f80;
-        }
-
-        footer p {
-            color: #fff;
-        }
-    </style>
+<footer class="wz-footer">
+    <div class="container">
+      <p>投稿至 wczxszxcb#163.com</p>
+      <p>©2016 文中深圳校友会 All rights reserved.</p>
+      <p>备案号：XXXX</p>
+    </div>
+</footer>
+<script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.staticfile.org/holder/2.9.4/holder.min.js" charset="utf-8"></script>
 
 </body>
 

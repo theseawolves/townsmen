@@ -44,6 +44,7 @@ a {
 section {
     padding: 35px 20px 45px;
     margin: 20px auto;
+    background-color: #fff;
 }
 .thumbnail img {
     width: 100%;
@@ -58,6 +59,11 @@ blockquote {
   border-left: 3px solid rgb(0, 150, 136);
   margin: 10px 12px;
   padding-left: 16px;
+}
+.media-body span {
+  margin-right: 8px;
+  font-size: 15px;
+  color: #8c8c8c;
 }
 
 /**
@@ -203,4 +209,10 @@ article
 
 .wz-about section {
   background-color:#fff;
+}
+.wz-culture section {
+  background-color:#fff;
+}
+.wz-culture section > .title {
+  border-bottom: 1px solid #eee;
 }
