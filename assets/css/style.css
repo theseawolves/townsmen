@@ -60,11 +60,6 @@ blockquote {
   padding-left: 16px;
 }
 
-embed,iframe {
-  margin-bottom: 30px;
-}
-
-
 /**
 navbar
 **/
@@ -203,5 +198,9 @@ article
   margin: 24px auto;
 }
 .wz-comments {
+  background-color:#fff;
+}
+
+.wz-about section {
   background-color:#fff;
 }
